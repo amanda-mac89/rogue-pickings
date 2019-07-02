@@ -1,0 +1,130 @@
+/*******ROUGE PICKINGS CSS*******/
+
+/*****BASE STYLES*****/
+body{
+  font-family:'Montserrat', sans-serif;
+  color:#000000;
+}
+h1, h2, h3, h4{
+  text-transform:uppercase;
+  font-weight:bolder;
+}
+h1{
+  font-size:30px;
+}
+h2{
+  font-size:24px;
+}
+h3{
+  font-size:18px;
+}
+h4{
+  font-size:14px;
+}
+p{
+  font-size:16px;
+  line-height:21px;
+  padding: 0 30px;
+}
+
+/*****GRID*****/
+.full-width{
+  clear:both;
+  margin: 0 auto;
+  width:100%;
+}
+.half-width{
+  float:left;
+  margin: 0 auto;
+  width:50%;
+}
+.third-width{
+  float:left;
+  margin: 0 auto;
+  width:33%;
+  text-align:left;
+}
+
+/*****HEADER*****/
+header{
+  height: 110px;
+  margin:0 auto;
+  padding-left:30px;
+}
+#header h1 span{
+  color:#77a466;
+}
+nav{
+  float:left;
+}
+header nav ul li{
+  display: inline;
+}
+header nav ul li a{
+  color:#77a466;
+  padding:15px;
+  text-decoration:none;
+}
+
+/*****GALLERY*****/
+.main-image{
+  height:auto;
+  width:auto;
+  float:left;
+}
+.main-image img{
+  border-bottom:3px solid #77a466;
+  border-top:3px solid #77a466;
+}
+
+/*****ABOUT*****/
+#about .full-width{
+  height:180px;
+  padding:10px 10px 20px 10px;
+}
+#about h2{
+  color:#77a466;
+  padding-left:30px;
+}
+#about p{
+  line-height:25px;
+}
+
+/*****CONTENT*****/
+.content{
+  border-top: 1px solid #eee;
+  border-bottom:1px solid #eee;
+  height:240px;
+}
+.content h3{
+  padding-left:30px;
+}
+#menu nav ul li{
+  color:#77a466;
+  line-height:28px;
+  list-style:none;
+  text-align:left;
+  text-decoration:none;
+}
+#reviews{
+  border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+.reviews p{
+  line-height:21px;
+}
+
+/*****FOOTER*****/
+#footer .full-width{
+  height:100px;
+  padding:20px 10px;
+}
+#footer{
+  text-align:center;
+}
+#footer span{
+  color:#77a466;
+  font-family: 'Dancing Script', cursive;
+  font-weight:bolder;
+  text-transform:none;
+}
