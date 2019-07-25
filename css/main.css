@@ -67,12 +67,13 @@ header nav ul li a{
 }
 
 /*****GALLERY*****/
-.main-image{
-  height:auto;
-  width:auto;
-  float:left;
-}
-.main-image img{
+#hero-img{
+  float: left;
+  height: auto;
+  width: auto;
+  }
+  
+#hero-img img{
   border-bottom:3px solid #77a466;
   border-top:3px solid #77a466;
 }
